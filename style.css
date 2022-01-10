@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-size: 18px;
+    font-family: 'Kumbh Sans';
+}
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: repeat, no-repeat;
+    background-size: cover;
+    background-position: right 40vw bottom 60vh, left 48vw top 52vh;
+    background-color: hsl(185, 75%, 39%);
+    position: absolute;
+    left: 41%;
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.mnn{
+    width: 330px;
+    background-image: url(./images/bg-pattern-card.svg);
+    height: 120px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.container {
+    width: 330px;
+    text-align: center;
+    background-color: white;
+    height: 250px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.photo{
+    height: 50px;
+    position: fixed;
+    top: 70px;
+    left: 115px;
+
+}
+
+.photo img{
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.name{
+    padding-top: 80px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.social{
+    align-items: center;
+    padding-top: 30px;
+    border-top:2px solid grey;
+    display: flex;
+    justify-content: space-around;
+}
+
+.where {
+    color: hsl(0, 0%, 59%);
+}
+
+p {
+    color: hsl(0, 0%, 59%);
+}
+
+h3{
+    font-weight: 700;
+}
